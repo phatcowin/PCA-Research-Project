@@ -1,0 +1,71 @@
+Method: SVD
+  Execution Time: 0.0033 sec
+  Avg. Reconstruction Error (Normal): 3.7293
+  Avg. Reconstruction Error (Intrusion): 3.7000
+  Error Ratio (Intrusion/Normal): 0.9921
+  Threshold: 4.8093
+  Accuracy: 0.9048
+  Precision: 0.0000
+  Recall: 0.0000
+  F1 Score: 0.0000
+  Confusion Matrix:
+    TP: 0 | FP: 50
+    FN: 50 | TN: 950
+--------------------------------------------------
+Method: Krasulina
+  Execution Time: 0.0572 sec
+  Avg. Reconstruction Error (Normal): 3.7646
+  Avg. Reconstruction Error (Intrusion): 5.0182
+  Error Ratio (Intrusion/Normal): 1.3330
+  Threshold: 4.9337
+  Accuracy: 0.9314
+  Precision: 0.3590
+  Recall: 0.5600
+  F1 Score: 0.4375
+  Confusion Matrix:
+    TP: 28 | FP: 50
+    FN: 22 | TN: 950
+--------------------------------------------------
+Method: Oja
+  Execution Time: 0.0327 sec
+  Avg. Reconstruction Error (Normal): 3.7905
+  Avg. Reconstruction Error (Intrusion): 3.8631
+  Error Ratio (Intrusion/Normal): 1.0192
+  Threshold: 4.9044
+  Accuracy: 0.9086
+  Precision: 0.0741
+  Recall: 0.0800
+  F1 Score: 0.0769
+  Confusion Matrix:
+    TP: 4 | FP: 50
+    FN: 46 | TN: 950
+--------------------------------------------------
+Method: Sanger
+  Execution Time: 0.0406 sec
+  Avg. Reconstruction Error (Normal): 3.9216
+  Avg. Reconstruction Error (Intrusion): 9.1956
+  Error Ratio (Intrusion/Normal): 2.3448
+  Threshold: 5.0536
+  Accuracy: 0.9524
+  Precision: 0.5000
+  Recall: 1.0000
+  F1 Score: 0.6667
+  Confusion Matrix:
+    TP: 50 | FP: 50
+    FN: 0 | TN: 950
+--------------------------------------------------
+Method: Sanger Optimized
+  Execution Time: 0.0707 sec
+  Avg. Reconstruction Error (Normal): 3.7293
+  Avg. Reconstruction Error (Intrusion): 3.7013
+  Error Ratio (Intrusion/Normal): 0.9925
+  Threshold: 4.8084
+  Accuracy: 0.9048
+  Precision: 0.0000
+  Recall: 0.0000
+  F1 Score: 0.0000
+  Confusion Matrix:
+    TP: 0 | FP: 50
+    FN: 50 | TN: 950
+--------------------------------------------------
+Visualization saved to ./pca_comparison_20250410-181408.png
